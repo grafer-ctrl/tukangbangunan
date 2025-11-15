@@ -1,10 +1,10 @@
 
 import React from 'react';
 import { HashRouter, Routes, Route } from 'react-router-dom';
-import HomePage from './components/HomePage';
-import CalculatorPage from './components/CalculatorPage';
-import Header from './components/Header';
-import Footer from './components/Footer';
+import HomePage from './components/HomePage.tsx';
+import CalculatorPage from './components/CalculatorPage.tsx';
+import Header from './components/Header.tsx';
+import Footer from './components/Footer.tsx';
 
 function App() {
   return (

@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { useParams, Link } from 'react-router-dom';
-import { CALCULATORS } from '../constants';
+import { CALCULATORS } from '../constants.tsx';
 
 const CalculatorPage: React.FC = () => {
   const { calculatorId } = useParams<{ calculatorId: string }>();

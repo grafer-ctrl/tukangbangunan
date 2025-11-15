@@ -1,10 +1,11 @@
+
 import React from 'react';
-import type { Calculator } from './types';
-import KeramikCalculator from './components/calculators/KeramikCalculator';
-import DindingBataCalculator from './components/calculators/DindingBataCalculator';
-import PlesteranDindingCalculator from './components/calculators/PlesteranDindingCalculator';
-import PengecatanDindingCalculator from './components/calculators/PengecatanDindingCalculator';
-import PlaceholderCalculator from './components/calculators/PlaceholderCalculator';
+import type { Calculator } from './types.ts';
+import KeramikCalculator from './components/calculators/KeramikCalculator.tsx';
+import DindingBataCalculator from './components/calculators/DindingBataCalculator.tsx';
+import PlesteranDindingCalculator from './components/calculators/PlesteranDindingCalculator.tsx';
+import PengecatanDindingCalculator from './components/calculators/PengecatanDindingCalculator.tsx';
+import PlaceholderCalculator from './components/calculators/PlaceholderCalculator.tsx';
 
 const BrickIcon = () => (
     <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-blue-500" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>

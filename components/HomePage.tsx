@@ -1,8 +1,8 @@
 
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { CALCULATORS } from '../constants';
-import CalculatorCard from './CalculatorCard';
+import { CALCULATORS } from '../constants.tsx';
+import CalculatorCard from './CalculatorCard.tsx';
 
 const HomePage: React.FC = () => {
   return (
