@@ -1,0 +1,5 @@
+{
+  "name": "Kalkulator Tukang Bangunan",
+  "description": "Aplikasi web untuk membantu tukang bangunan menghitung kebutuhan material secara cepat dan akurat. Termasuk 20 kalkulator esensial untuk berbagai pekerjaan konstruksi.",
+  "requestFramePermissions": []
+}
