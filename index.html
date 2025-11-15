@@ -1,12 +1,18 @@
-
 <!DOCTYPE html>
 <html lang="id">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Kalkulator Tukang Bangunan</title>
+    <!-- Set the base path for all relative URLs -->
+    <base href="/tukangbangunan/" />
     <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Load Babel -->
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <!-- Load Babel Presets for JSX and TypeScript -->
+    <script src="https://unpkg.com/@babel/preset-react/dist/preset-react.min.js"></script>
+    <script src="https://unpkg.com/@babel/preset-typescript/dist/preset-typescript.min.js"></script>
+    
   <script type="importmap">
 {
   "imports": {
@@ -20,6 +26,7 @@
 </head>
   <body class="bg-slate-50">
     <div id="root"></div>
-    <script type="module" src="./index.tsx"></script>
+    <!-- Tell Babel to use the loaded presets (react, typescript) to transpile the module -->
+    <script type="text/babel" data-presets="react,typescript" data-type="module" src="./index.tsx"></script>
   </body>
 </html>
