@@ -1,9 +1,9 @@
-
 import React from 'react';
 import type { Calculator } from './types';
 import KeramikCalculator from './components/calculators/KeramikCalculator';
 import DindingBataCalculator from './components/calculators/DindingBataCalculator';
 import PlesteranDindingCalculator from './components/calculators/PlesteranDindingCalculator';
+import PengecatanDindingCalculator from './components/calculators/PengecatanDindingCalculator';
 import PlaceholderCalculator from './components/calculators/PlaceholderCalculator';
 
 const BrickIcon = () => (
@@ -36,9 +36,9 @@ export const CALCULATORS: Calculator[] = [
     { id: 'keramik', title: 'Kebutuhan Keramik', description: 'Hitung jumlah keramik, dus, dan nat yang dibutuhkan untuk lantai.', icon: <TileIcon />, component: KeramikCalculator },
     { id: 'dinding-bata', title: 'Dinding Bata', description: 'Estimasi kebutuhan bata merah atau batako, semen, dan pasir.', icon: <BrickIcon />, component: DindingBataCalculator },
     { id: 'plesteran-dinding', title: 'Plesteran Dinding', description: 'Kalkulasi kebutuhan semen dan pasir untuk plesteran dinding.', icon: <PaintIcon />, component: PlesteranDindingCalculator },
+    { id: 'pengecatan-dinding', title: 'Pengecatan Dinding', description: 'Hitung kebutuhan cat berdasarkan luas dinding dan jumlah lapisan.', icon: <PaintIcon />, component: PengecatanDindingCalculator },
     { id: 'beton-sloof', title: 'Beton Sloof', description: 'Hitung volume dan material untuk pembuatan beton sloof.', icon: <ConcreteIcon />, component: PlaceholderCalculator },
     { id: 'rangka-atap', title: 'Rangka Atap Baja Ringan', description: 'Estimasi kebutuhan baja ringan untuk konstruksi atap.', icon: <BrickIcon />, component: PlaceholderCalculator },
-    { id: 'pengecatan-dinding', title: 'Pengecatan Dinding', description: 'Hitung kebutuhan cat berdasarkan luas dinding dan jumlah lapisan.', icon: <PaintIcon />, component: PlaceholderCalculator },
     { id: 'pondasi-batu-kali', title: 'Pondasi Batu Kali', description: 'Kalkulasi volume dan material untuk pondasi batu kali.', icon: <ConcreteIcon />, component: PlaceholderCalculator },
     { id: 'pasang-paving-block', title: 'Pasang Paving Block', description: 'Hitung jumlah paving block dan pasir alas yang dibutuhkan.', icon: <TileIcon />, component: PlaceholderCalculator },
     { id: 'instalasi-listrik', title: 'Instalasi Listrik', description: 'Estimasi kebutuhan kabel, stop kontak, dan saklar per ruangan.', icon: <BrickIcon />, component: PlaceholderCalculator },
